@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsServer", "NewsServer\NewsServer.csproj", "{BCEA528B-1E43-4EDD-8764-61BCEDA15752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsClient.Basic", "NewsClient.Basic\NewsClient.Basic.csproj", "{98B127E5-49F6-4248-939F-50943734B4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsClient.Privileged", "NewsClient.Privileged\NewsClient.Privileged.csproj", "{CF5FC889-A4D2-4141-8110-B28CF25D9FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsPost", "NewsPost\NewsPost.csproj", "{3A1F84CC-F0E7-483F-BA44-CEE13EF859C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCEA528B-1E43-4EDD-8764-61BCEDA15752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEA528B-1E43-4EDD-8764-61BCEDA15752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEA528B-1E43-4EDD-8764-61BCEDA15752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEA528B-1E43-4EDD-8764-61BCEDA15752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B127E5-49F6-4248-939F-50943734B4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B127E5-49F6-4248-939F-50943734B4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B127E5-49F6-4248-939F-50943734B4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B127E5-49F6-4248-939F-50943734B4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF5FC889-A4D2-4141-8110-B28CF25D9FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5FC889-A4D2-4141-8110-B28CF25D9FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5FC889-A4D2-4141-8110-B28CF25D9FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5FC889-A4D2-4141-8110-B28CF25D9FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1F84CC-F0E7-483F-BA44-CEE13EF859C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1F84CC-F0E7-483F-BA44-CEE13EF859C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1F84CC-F0E7-483F-BA44-CEE13EF859C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1F84CC-F0E7-483F-BA44-CEE13EF859C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
