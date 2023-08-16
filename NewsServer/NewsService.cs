@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NewsClient.Privileged
+namespace NewsServer
 {
-    internal class Program
+    public class NewsService
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
