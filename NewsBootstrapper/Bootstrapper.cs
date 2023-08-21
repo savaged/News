@@ -18,21 +18,15 @@ public class Bootstrapper
     public IContainer Build()
     {
         BindCommon();
-        BindApplicationSpecific();
         _container = Builder.Build();
         return _container;
     }
 
     protected ContainerBuilder Builder { get; }
 
-    protected virtual void BindApplicationSpecific() { }
-
     private void BindCommon()
     {
-        Builder.RegisterType<MessageQueueService>().As<IMessageQueueService>()
-            .WithParameter("queueName", _messageQueueName)
-            .SingleInstance();
-        Builder.RegisterType<NewsService>().As<INewsService>();
+        // TODO register services
     }
 
 }
