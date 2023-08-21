@@ -1,15 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Autofac;
+using NewsBootstrapper;
+using NewsServer;
+using System;
 
-namespace NewsClient.Privileged
+namespace NewsClient.Privileged;
+
+internal class Program
 {
-    internal class Program
+    static void Main() => new Program().Run();
+
+    private readonly IContainer _container;
+
+    private Program() => _container = new Bootstrapper("news").Build();
+
+    public void Run()
     {
-        static void Main(string[] args)
-        {
-        }
+        using var scope = _container.BeginLifetimeScope();
+        Console.WriteLine(scope.Resolve<INewsService>()?.Receive("privileged") ?? string.Empty);
     }
 }
